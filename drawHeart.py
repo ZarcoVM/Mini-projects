@@ -9,3 +9,8 @@ def heartb(k):
     # Calcula la coordenada y del corazón usando una fórmula basada en coseno.
     return 12 * math.cos(k) - 5 * math.cos(2 * k) - 2 * math.cos(3 * k) - math.cos(4 * k)
 
+speed(0)  # Establece la velocidad máxima de dibujo.
+bgcolor("black")  # Cambia el color de fondo de la ventana a negro.
+
+for i in range(6000):  # Repite el bucle 6000 veces para crear el dibujo completo.
+    goto(hearta(i) * 20, heartb(i) * 20)  # Mueve la tortuga a las coordenadas calculadas y las amplifica por 20.
