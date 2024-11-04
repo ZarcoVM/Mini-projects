@@ -14,3 +14,10 @@ bgcolor("black")  # Cambia el color de fondo de la ventana a negro.
 
 for i in range(6000):  # Repite el bucle 6000 veces para crear el dibujo completo.
     goto(hearta(i) * 20, heartb(i) * 20)  # Mueve la tortuga a las coordenadas calculadas y las amplifica por 20.
+
+for j in range(5):
+        color("red")  # Cambia el color del "lápiz" a rojo (este bucle no es necesario aquí).
+
+    goto(0, 0)  # Regresa la tortuga al origen después de cada movimiento, lo cual afecta el dibujo final.
+
+done()  # Termina el dibujo y mantiene la ventana abierta.
