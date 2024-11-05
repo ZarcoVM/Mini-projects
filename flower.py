@@ -19,3 +19,17 @@ for i in range(195):
 turtle.shape('turtle')
 turtle.pencolor('orangered')
 turtle.fillcolor('orange')
+
+phi = 137.508 * (math.pi / 180.0)
+for i in range(300):
+    r = 4 * math.sqrt(i)
+    theta = i * phi
+    x = r * math.cos(theta)
+    y = r * math.sin(theta)
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.setheading(i * 137.508)
+    turtle.pendown()
+    turtle.stamp()
+
+done()
