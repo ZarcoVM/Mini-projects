@@ -22,3 +22,10 @@ for i in range(195):
     rt(14)  # Girar hacia la derecha 14 grados
     forward(i * 0.1)  # Avanzar una distancia que también crece con cada iteración
     circle(i * 0.3, 120)  # Otro arco de círculo
+
+# Configuración de la tortuga para el siguiente patrón de estampado
+turtle.shape('turtle')
+turtle.pencolor('orangered')
+turtle.fillcolor('orange')
+
+
