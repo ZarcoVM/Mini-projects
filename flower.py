@@ -28,4 +28,18 @@ turtle.shape('turtle')
 turtle.pencolor('orangered')
 turtle.fillcolor('orange')
 
+# Constante phi (ángulo en radianes) para el patrón espiral
+phi = 137.508 * (math.pi / 180.0)
+for i in range(300):
+    r = 4 * math.sqrt(i)  # Cálculo del radio para cada punto
+    theta = i * phi  # Ángulo calculado en radianes
+    x = r * math.cos(theta)  # Coordenada x usando coordenadas polares
+    y = r * math.sin(theta)  # Coordenada y usando coordenadas polares
+    turtle.penup()  # Levantar pluma para moverse sin dibujar
+    turtle.goto(x, y)  # Mover a la posición (x, y) calculada
+    turtle.setheading(i * 137.508)  # Orientar la tortuga
+    turtle.pendown()  # Bajar pluma para estampar
+    turtle.stamp()  # Dejar una estampa de la forma de tortuga
 
+# Termina el dibujo
+done()
