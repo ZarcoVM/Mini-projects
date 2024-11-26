@@ -9,6 +9,7 @@ numA = random.randint(1, 100)
 numero = -1
 intentos = 0
 
+
 # Bucle que continúa hasta que el usuario adivine el número
 while numero != numA:
     # Solicita al usuario que introduzca un número
