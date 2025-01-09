@@ -1,7 +1,6 @@
 from turtle import *
 import turtle
 import math
-
 ñ
 
 # Reduce la velocidad de dibujo para que sea más fluido
