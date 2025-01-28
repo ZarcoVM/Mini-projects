@@ -4,7 +4,6 @@ import math
 
 
 
-
 # Reduce la velocidad de dibujo para que sea más fluido
 tracer(2)
 
