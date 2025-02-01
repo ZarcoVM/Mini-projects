@@ -1,6 +1,6 @@
 from turtle import *
 import turtle 
-import math 
+import math  
  
 # Reduce la velocidad de dibujo para que sea más fluido
 tracer(2)
