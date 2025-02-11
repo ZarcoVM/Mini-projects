@@ -9,6 +9,7 @@ numA = random.randint(1, 100)
  número ingresado por el usuario
 
 # y el contador de intentos
+
 numero = -1
 intentos = 0 
 
