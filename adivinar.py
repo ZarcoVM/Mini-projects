@@ -11,6 +11,7 @@ numA = random.randint(1, 100)
 # y el contador de intentos
 
 numero = -1
+
 intentos = 0 
 
 # Bucle que continúa hasta que el usuario adivine el número 
