@@ -13,7 +13,6 @@ while numero != numA:
     numero = int(input("Introduce un número: "))
     # Incrementa el contador de intentos
     intentos += 1
-
  # Verifica si el número ingresado es mayor o menor que el número aleatorio
     if numero > numA:
         print("Te pasaste")
