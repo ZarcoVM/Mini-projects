@@ -12,7 +12,6 @@ bgcolor('black')
 pensize(2)
 color('yellow')
 
-
 # Dibujar un patrón de líneas y círculos con un giro progresivo
 h = 0  # Contador de incremento
 for i in range(195):
