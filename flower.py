@@ -6,7 +6,6 @@ import math
 tracer(2)
 
 
-
 # Color de fondo negro
 bgcolor('black')
 
