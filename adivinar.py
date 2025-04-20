@@ -19,6 +19,5 @@ while numero != numA:
         print("Te pasaste")
     elif numero < numA:
         print("Te quedaste corto")
-
 # Cuando el número es correcto, muestra un mensaje de felicitación y el número de intentos
 print(f"Felicidades, el número es: {numA}. Lo lograste en {intentos} intentos.")
