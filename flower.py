@@ -4,7 +4,7 @@
 
 
 
-from turtle import *  
+from turtle import * 
 import turtle       
 
 import math       
